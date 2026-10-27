@@ -1489,11 +1489,6 @@ function Shell() {
           </span>
         </div>
         <main id="main-content">
-          {message && (
-            <div className="error" role="alert">
-              {message}
-            </div>
-          )}
           {loading ? (
             <div className="empty">
               <Loader2 className="spin" />
