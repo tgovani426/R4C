@@ -30,7 +30,7 @@ function incident(
 // Fictional, masked training casework. The workspace banner identifies the exercise environment once.
 export const operationalCases: Case[] = [
   incident({
-    id: "US4C-2026-1042",
+    id: "R4C-2026-1042",
     title: "Merchant impersonation · UPI fund diversion",
     mission: "fraud",
     priority: "Critical",
@@ -128,7 +128,7 @@ export const operationalCases: Case[] = [
       "₹38,500 hold recorded; ₹11,500 and downstream funds require reconciliation.",
   }),
   incident({
-    id: "US4C-2026-1041",
+    id: "R4C-2026-1041",
     title: "Account impersonation · repeated threats and address disclosure",
     mission: "safety",
     priority: "Critical",
@@ -213,7 +213,7 @@ export const operationalCases: Case[] = [
       "Protection review pending; account attribution remains unconfirmed.",
   }),
   incident({
-    id: "US4C-2026-1040",
+    id: "R4C-2026-1040",
     title: "Reposted video · disputed location and event context",
     mission: "content",
     location: "Varanasi",
@@ -308,7 +308,7 @@ export const operationalCases: Case[] = [
       "Context verification open; platform action has not been authorised.",
   }),
   incident({
-    id: "US4C-2026-1039",
+    id: "R4C-2026-1039",
     title: "Urgent welfare concern · contact and location confirmation",
     mission: "distress",
     priority: "Critical",
@@ -393,7 +393,7 @@ export const operationalCases: Case[] = [
     outcome: "Welfare contact and verified response location pending.",
   }),
   incident({
-    id: "US4C-2026-1038",
+    id: "R4C-2026-1038",
     title: "Courier impersonation · remote-access payment request",
     mission: "fraud",
     location: "Jaipur",
@@ -452,7 +452,7 @@ export const operationalCases: Case[] = [
       "₹12,300 hold recorded; ₹6,450 beneficiary reconciliation pending.",
   }),
   incident({
-    id: "US4C-2026-1037",
+    id: "R4C-2026-1037",
     title: "Impersonation profile · evidence preserved and protection handover",
     mission: "safety",
     priority: "Medium",
@@ -499,7 +499,7 @@ export const operationalCases: Case[] = [
       "Safe outreach completed; jurisdiction officer accepted handover. Follow-up: Protection Desk, 02 Oct 11:00 IST.",
   }),
   incident({
-    id: "US4C-2026-1036",
+    id: "R4C-2026-1036",
     title: "False evacuation notice · source review and public advisory",
     mission: "content",
     priority: "Medium",
@@ -544,7 +544,7 @@ export const operationalCases: Case[] = [
       "Outdated context confirmed; clarification advisory approved. Follow-up: Intelligence Hub, monitor new reposts through 02 Oct.",
   }),
   incident({
-    id: "US4C-2026-1035",
+    id: "R4C-2026-1035",
     title: "Welfare referral · contact established and support handover",
     mission: "distress",
     priority: "High",

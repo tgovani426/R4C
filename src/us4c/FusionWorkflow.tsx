@@ -1110,10 +1110,10 @@ function AssessmentStage() {
     >
       {item.isDemo &&
       [
-        "US4C-2026-1042",
-        "US4C-2026-1041",
-        "US4C-2026-1040",
-        "US4C-2026-1039",
+        "R4C-2026-1042",
+        "R4C-2026-1041",
+        "R4C-2026-1040",
+        "R4C-2026-1039",
       ].includes(item.id) ? (
         <div className="ops-field-grid">
           {assessment.fields.map((f) => (

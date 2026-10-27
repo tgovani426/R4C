@@ -58,7 +58,7 @@ export default function CommandDashboard({
     <>
       <div className="page-intro">
         <div>
-          <span className="eyebrow">US4C / OPERATIONS</span>
+          <span className="eyebrow">R4C / OPERATIONS</span>
           <h1>Command centre</h1>
           <p>
             Incident triage, investigation progress and response coordination.

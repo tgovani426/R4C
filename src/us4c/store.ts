@@ -58,7 +58,7 @@ export async function loadRemote(owner: string) {
     .order("created_at", { ascending: false });
   if (error)
     throw new Error(
-      "Database unavailable. Check the US4C schema and connection settings.",
+      "Database unavailable. Check the R4C schema and connection settings.",
     );
   return data.map(fromRow);
 }

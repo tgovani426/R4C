@@ -125,7 +125,7 @@ export default function OperationsReports({ cases }: { cases: Case[] }) {
     <>
       <div className="page-intro">
         <div>
-          <span className="eyebrow">US4C / PERFORMANCE & ACCOUNTABILITY</span>
+          <span className="eyebrow">R4C / PERFORMANCE & ACCOUNTABILITY</span>
           <h1>Outcomes & reports</h1>
           <p>
             Response outcomes, financial acknowledgements and investigation

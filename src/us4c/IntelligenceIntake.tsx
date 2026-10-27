@@ -281,7 +281,7 @@ export default function IntelligenceIntake({
     if (!item) return;
     setError("");
     const mission = missions.find((m) => m.id === item.mission)!;
-    const id = `US4C-INT-${item.id}`;
+    const id = `R4C-INT-${item.id}`;
     const next: Case = {
       id,
       title: item.title,
@@ -349,7 +349,7 @@ export default function IntelligenceIntake({
     <>
       <div className="page-intro">
         <div>
-          <span className="eyebrow">US4C / SHARED INTELLIGENCE</span>
+          <span className="eyebrow">R4C / SHARED INTELLIGENCE</span>
           <h1>Sources & data intake</h1>
           <p>
             Source review, complaint triage, evidence extraction and case

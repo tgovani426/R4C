@@ -822,7 +822,7 @@ function Intake({ save, saving, user }: Workspace) {
           const summary = String(f.get("summary")).trim();
           if (!title || !summary) return;
           const item: Case = {
-            id: `US4C-${crypto.randomUUID()}`,
+            id: `R4C-${crypto.randomUUID()}`,
             title,
             mission,
             priority: String(f.get("priority")) as Case["priority"],
@@ -1168,7 +1168,7 @@ function Units({ cases }: Workspace) {
     <>
       <div className="page-intro">
         <div>
-          <span className="eyebrow">US4C FUNCTIONAL FRAMEWORK</span>
+          <span className="eyebrow">R4C FUNCTIONAL FRAMEWORK</span>
           <h1>Functional Units</h1>
           <p>
             Functional ownership and shared intelligence across every cyber
@@ -1180,7 +1180,7 @@ function Units({ cases }: Workspace) {
         <div className="unit-hub">
           <Shield size={52} />
           <span className="eyebrow">UNIFIED COMMAND</span>
-          <h2>US4C</h2>
+          <h2>R4C</h2>
           <p>
             Command review
             <br />
@@ -1343,7 +1343,7 @@ function Shell() {
       <div className="cyber-app">
         <Suspense
           fallback={
-            <div className="ops-empty">Loading US4C access portal…</div>
+            <div className="ops-empty">Loading R4C access portal…</div>
           }
         >
           <PortalGate
@@ -1368,7 +1368,7 @@ function Shell() {
             <Shield size={27} />
           </div>
           <div>
-            <strong>US4C</strong>
+            <strong>R4C</strong>
             <span>CYBER COMMAND</span>
           </div>
         </NavLink>
@@ -1432,7 +1432,7 @@ function Shell() {
         <header className="topbar">
           <div className="breadcrumb">
             <Shield size={15} />
-            <span>US4C</span>
+            <span>R4C</span>
             <ChevronRight size={13} />
             <strong>Integrated Cyber Command & Control</strong>
           </div>
@@ -1541,7 +1541,7 @@ function Shell() {
           )}
         </main>
         <footer>
-          <span>US4C / UNIFIED STATE CYBER COMMAND CENTRE</span>
+          <span>R4C / UNIFIED STATE CYBER COMMAND CENTRE</span>
           <span>
             Case management · Intelligence review · Agency coordination
           </span>
