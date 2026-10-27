@@ -6,7 +6,7 @@ The navy foundation comes from the original application. The user explicitly req
 
 Use four visible investigation phases with the current phase's individual stages underneath. Keep all twelve stages and their review gates; show the case-control sidebar on demand. A decision requires an explicit action, a source reference or a review reason. Source quality is an analyst-assigned record score, not an identity-match probability.
 
-The command centre uses an incident register, review-gate counts and jurisdiction workload derived from records. Outcomes and reports use scoped totals, labelled comparison bars, financial acknowledgements and a selectable case brief. Do not invent activity charts, external API connectivity, recovery outcomes or agency dispatches.
+The command centre uses an incident register, review-gate counts and jurisdiction workload derived from records. Outcomes and reports use scoped totals, labelled comparison bars, financial acknowledgements and a selectable case brief. Do not invent activity charts, external API connectivity, recovery outcomes or agency dispatches. The one exception is the threat & trend section on the command centre (`ThreatOverview`), which the user requested: it draws only from the static sample dataset in `threatData.ts` and must keep its visible "Illustrative data" badge. Never mix those figures into case-derived totals.
 
 Retain the original fingerprint launch interaction and login entry. The fingerprint illustration is not device biometric authentication. Account authentication uses Supabase. Private case audit events originate in the database; exercise history remains local.
 

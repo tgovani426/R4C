@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { type Case, missions, money } from "./data";
 import { flowSteps } from "./investigation";
+import ThreatOverview from "./ThreatOverview";
 const missionIcons = {
   fraud: Wallet,
   safety: ShieldCheck,
@@ -140,6 +141,7 @@ export default function CommandDashboard({
           );
         })}
       </div>
+      <ThreatOverview />
       <div className="command-layout">
         <section className="command-register">
           <header>
