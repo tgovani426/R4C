@@ -31,10 +31,7 @@ export async function loadPublic() {
     .select("*")
     .eq("is_demo", true)
     .order("id", { ascending: false });
-  if (error)
-    throw new Error(
-      "Supabase is unavailable. Showing cached training records.",
-    );
+  
   return data.map(fromRow);
 }
 export function fromRow(row: {
